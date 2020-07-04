@@ -62,7 +62,7 @@ section {
 
 }
 .center1{
-    animation: slidein 9s ease-in-out 1s infinite alternate;
+    animation: slidein 15s ease-in-out 3s infinite alternate;
 }
 @keyframes slidein {
     0%{
