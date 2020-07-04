@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       html , body{
+            margin: 0;
+            background: black;
+        }
+        .bern{
+            width: 112px;
+            height: 156px;
+            margin: auto;
+            background: url( https://i.imgur.com/ifk0SLH.png) repeat-x;
+            animation: walk .8s steps (6) infinite;
+            position: relative ;
+            bottom: 34px;
+        }
+        @keyframes walk {
+            0%{
+                background-position: 0;
+
+            }
+            100%{
+                background-position: -672px;
+            }
+        
+        }
+        .sky{
+            background: url(https://i.imgur.com/PhHVjgw.png) repeat-x;
+            animation: movebg 9s linear infinite;
+
+        }
+        .sea{
+            background: url(https://i.imgur.com/h75XWy8.png) repeat-x;
+            animation: movebg 6s linear infinite;
+            position: relative;
+            top: 145px;
+            box-shadow: 10px 10px 45px RGBA(0 , 0 , 0 , 0.85) inset;
+        }
+        @keyframes movebg {
+            0%{background-position: 550px;}
+            100%{background-position: 0;}
+        }
+
+        .gbwalk{
+            width: 104px;
+            height: 150px;
+            background: url(https://i.imur.com/egTLaCy.png) no-repeat;
+            animation: gbwalk 1s steps (6) infinite;
+            margin: auto;
+            position: relative;
+            top: 34px;
+        }
+        @keyframes gbwalk {
+            0%{ background-position: 0 ;}
+            100%{
+                background-position: -624px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="sky">
+        <div class="be">
+            <div class="bern"></div>
+        </div>
+    </div>
+
+    <audio src=""></audio>
+</body>
+</html>
