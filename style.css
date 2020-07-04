@@ -34,7 +34,7 @@ h4{
     display: block;
 }
 
-section {
+.html-section {
     height: 1500px;
     margin-bottom: 150px;
 }
@@ -61,6 +61,9 @@ section {
     position: absolute;
 
 }
+a{
+    color: red;
+}
 .center1{
     animation: slidein 15s ease-in-out 3s infinite alternate;
 }
@@ -86,4 +89,5 @@ section {
 footer{
     text-align: center;
     background-color: gray;
+    margin-top: 100px;
 }
